@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Load datasets
 life_expectancy_data = pd.read_csv('Life Expectancy Data.csv')
 happiness_2019 = pd.read_csv('2019.csv')
-suicide_data = pd.read_csv('/Users/zachpearson/Downloads/master.csv')
+suicide_data = pd.read_csv('master.csv')
 # Strip whitespace from column names
 life_expectancy_data.columns = life_expectancy_data.columns.str.strip()
 happiness_2019.columns = happiness_2019.columns.str.strip()
